@@ -1,4 +1,20 @@
 {
+  "files.associations": {"*.ps1xml": "xml" },
+    "terminal.integrated.profiles.windows": {
+      "winpwsh": {
+        "path": "C:/Program Files/PowerShell/7/pwsh.exe",
+      }
+    },
+    "terminal.integrated.profiles.linux": {
+      "linpwsh": {
+        "path": "/usr/bin/pwsh",
+      }
+    },
+    "terminal.integrated.defaultProfile.windows": "winpwsh",
+    "terminal.integrated.defaultProfile.linux": "linpwsh",
+
+  // "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+    // "terminal.integrated.shell.linux": "/snap/powershell/36/opt/powershell/pwsh",
   // When enabled, will trim trailing whitespace when you save a file.
   "files.trimTrailingWhitespace": true,
   // specifies the location of the explicitly ScriptAnalyzer settings file
@@ -6,6 +22,10 @@
   // specifies the PowerShell coding style used in this project (https://github.com/PoshCode/PowerShellPracticeAndStyle/issues/81)
   "powershell.codeFormatting.preset": "Stroustrup",
   "powershell.scriptAnalysis.enable": true,
+  "[xml]": {
+    "editor.defaultFormatter": "redhat.vscode-xml",
+    "editor.tabSize": 2,
+  },
   "xml.fileAssociations": [
     {
       "systemId": "https://raw.githubusercontent.com/PowerShell/PowerShell/master/src/Schemas/Format.xsd",
@@ -13,7 +33,26 @@
     },
     {
       "systemId": "https://raw.githubusercontent.com/PowerShell/PowerShell/master/src/Schemas/Types.xsd",
-      "pattern": "**/*.Types.ps1xml"
+      "pattern": "**/*.ps1xml"
     }
-  ]
+  ],
+  "workbench.colorCustomizations": {
+    "activityBar.activeBackground": "#ab307e",
+    "activityBar.background": "#ab307e",
+    "activityBar.foreground": "#e7e7e7",
+    "activityBar.inactiveForeground": "#e7e7e799",
+    "activityBarBadge.background": "#25320e",
+    "activityBarBadge.foreground": "#e7e7e7",
+    "commandCenter.border": "#e7e7e799",
+    "sash.hoverBorder": "#ab307e",
+    "statusBar.background": "#832561",
+    "statusBar.foreground": "#e7e7e7",
+    "statusBarItem.hoverBackground": "#ab307e",
+    "statusBarItem.remoteBackground": "#832561",
+    "statusBarItem.remoteForeground": "#e7e7e7",
+    "titleBar.activeBackground": "#832561",
+    "titleBar.activeForeground": "#e7e7e7",
+    "titleBar.inactiveBackground": "#83256199",
+    "titleBar.inactiveForeground": "#e7e7e799"
+  }
 }
