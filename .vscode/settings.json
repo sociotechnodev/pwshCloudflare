@@ -1,20 +1,21 @@
 {
-  "files.associations": {"*.ps1xml": "xml" },
-    "terminal.integrated.profiles.windows": {
-      "winpwsh": {
-        "path": "C:/Program Files/PowerShell/7/pwsh.exe",
-      }
-    },
-    "terminal.integrated.profiles.linux": {
-      "linpwsh": {
-        "path": "/usr/bin/pwsh",
-      }
-    },
-    "terminal.integrated.defaultProfile.windows": "winpwsh",
-    "terminal.integrated.defaultProfile.linux": "linpwsh",
-
+  "files.associations": {
+    "*.ps1xml": "xml"
+  },
+  "terminal.integrated.profiles.windows": {
+    "winpwsh": {
+      "path": "C:/Program Files/PowerShell/7/pwsh.exe",
+    }
+  },
+  "terminal.integrated.profiles.linux": {
+    "linpwsh": {
+      "path": "/usr/bin/pwsh",
+    }
+  },
+  "terminal.integrated.defaultProfile.windows": "winpwsh",
+  "terminal.integrated.defaultProfile.linux": "linpwsh",
   // "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
-    // "terminal.integrated.shell.linux": "/snap/powershell/36/opt/powershell/pwsh",
+  // "terminal.integrated.shell.linux": "/snap/powershell/36/opt/powershell/pwsh",
   // When enabled, will trim trailing whitespace when you save a file.
   "files.trimTrailingWhitespace": true,
   // specifies the location of the explicitly ScriptAnalyzer settings file
